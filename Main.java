@@ -15,7 +15,7 @@ enum Maping{
         return num;
     }
 }
-public class Main {
+public class Stone_Paper_Scissors {
     public static void main(String[] args) {
         Random random=new Random();
         Scanner scanner=new Scanner(System.in);
@@ -93,3 +93,4 @@ public class Main {
 
     }
     }
+
