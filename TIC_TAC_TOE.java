@@ -19,7 +19,8 @@ public class TIC_TAC_TOE {
 
         Scanner in=new Scanner(System.in);
         while (true) {
-
+				String winer= winningcheck();
+           System.out.println(winer);
             System.out.println("Enter your position player 'X' (1-9): ");
             int pos = in.nextInt();
             System.out.println(pos);
@@ -29,6 +30,8 @@ public class TIC_TAC_TOE {
                 pos=in.nextInt();
             }
             addpice(pos, bord,"player1");
+            winer= winningcheck();
+           System.out.println(winer);
             System.out.println("Enter your position player 'O' (1-9): ");
             pos = in.nextInt();
             System.out.println(pos);
@@ -38,7 +41,7 @@ public class TIC_TAC_TOE {
                 pos=in.nextInt();
             }
             addpice(pos, bord,"player2");
-           String winer= winningcheck();
+				 winer= winningcheck();
            System.out.println(winer);
         }
     }
@@ -126,3 +129,4 @@ public class TIC_TAC_TOE {
 
 
 }
+
