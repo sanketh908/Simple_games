@@ -29,7 +29,7 @@ public class Stone_Paper_Scissors {
             int random_num=random.nextInt(3);
             System.out.println("Your Score :"+count);
             System.out.println("Computer score :"+computer_score);
-            System.out.println("Stone , Paper , Scissor :");
+            System.out.println("stone , paper , scissor :");
             System.out.print("your choice :");
             str = scanner.nextLine();
 
@@ -75,4 +75,5 @@ public class Stone_Paper_Scissors {
 
     }
     }
+
 
