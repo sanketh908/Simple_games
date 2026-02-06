@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 enum Maping{
-    stone(0),paper(1),scissors(2)
+    stone(0),paper(1),scissor(2)
     ;
     private int num;
     Maping(int i) {
@@ -75,3 +75,4 @@ public class Stone_Paper_Scissors {
 
     }
     }
+
