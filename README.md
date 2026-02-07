@@ -9,16 +9,7 @@ Currently included:
 
 ---
 
-## 📂 Project Structure
-
-```
-Simple_games/
-│── Stone_Paper_Scissors.java
-│── TIC_TAC_TOE.java
-│── README.md
-```
-
----
+\
 
 ## 🪨📄✂️ Stone Paper Scissors
 
